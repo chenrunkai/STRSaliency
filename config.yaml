@@ -1,0 +1,27 @@
+str-saliency:
+  perturbation: True # False if map is based on insertion, not deletion
+  lr: 0.01
+  max_iter: 10000
+  lambda_pred: 1
+  lambda_smoothness_r: 1
+  lambda_smoothness_t: 5
+  lambda_remainder: 1
+  lambda_trend: 1
+  lambda_season: 20
+  total_budget: 0
+  seed: 42
+
+shap:
+  seed: 42
+  kmeans: 50
+  # kmeans: 39 # for cricket_x test set
+  nsamples: 200 # 2248(=2*100+2048, default value in shap) for cnn, 200 for lstm
+ig:
+  seed: 42
+lime:
+  seed: 42
+  num_samples: 1000
+
+afo:
+  seed: 42
+  sample_times: 10 # 100 for cnn, 10 for lstm

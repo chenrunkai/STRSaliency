@@ -1,0 +1,6 @@
+Seasonal: False, Trend: True, Remainder: True
+Saving to ./generated_maps\lstm\cricket_x\str-saliency\2023-08-12 22_03 enable_season=False
+label: 0
+target: 0.082
+pred: 0.659
+loss_pred: -0.576
